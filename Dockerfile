@@ -20,3 +20,4 @@ RUN npm install \
 EXPOSE 8386
 
 ENTRYPOINT ["/app/entrypoint.sh"]
+CMD ["app"]
